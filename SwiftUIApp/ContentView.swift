@@ -13,7 +13,10 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Swift UI APP")
+            Button("Click Me") {
+                print("Button Clicked, Well Done!")
+            }
         }
         .padding()
     }
